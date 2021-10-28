@@ -1,0 +1,31 @@
+@media (min-width:428px) {
+    header,
+    .cont-footer,
+    .team,
+    .service{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        font-size: 12px;;
+    }
+
+    .web, 
+    .desing, 
+    .movil,
+    .marketing{
+          width: 90%;
+          margin: 0px auto;
+    }
+
+    .foto{        
+        margin: 0px auto;
+    
+    }
+    
+    .team img{
+        margin: 0px auto;
+    }
+    
+}
