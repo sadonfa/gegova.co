@@ -46,8 +46,13 @@ nav ul li:hover{
 /* ########### CONTENIDO ########### */
 
 .banner {
-    width: 100%;    
+    width: 100%; 
+    background-position: center center;
+    background-size: cover;
+    /* filter: brightness(50%); */
+    /* position: relative;    */
 }
+
 
 #servicios{
     background-color: #031d40;
@@ -267,7 +272,7 @@ footer{
     justify-content: space-around;   
     /* background: url('../images/brunette-woman-typing-email-on-laptop-computer-while-sitting-at-home-selective-focus-on-hand.jpg'); */
     /* background: linear-gradient(40deg, #031d40, rgba(0, 0, 0 ,0.0)); */
-    background: linear-gradient(to right, rgba(3, 29, 64, 0.7), rgba(255, 255, 255, 0)),  url('../images/brunette-woman-typing-email-on-laptop-computer-while-sitting-at-home-selective-focus-on-hand.jpg');
+    background: linear-gradient(to right, rgba(3, 29, 64, 0.9), rgba(255, 255, 255, 0)),  url('../images/brunette-woman-typing-email-on-laptop-computer-while-sitting-at-home-selective-focus-on-hand.jpg');
 
 }
 
@@ -350,3 +355,22 @@ footer{
 
 
 /* ########### FIN PAGINA DE CONTACTOS ########### */
+
+
+.quienes{
+    width: 100%;
+    position: absolute;
+    padding: 150px 100px;
+    margin: 0px auto;
+    /* background-image: url('../images/graphic-designer-sitting-at-desk.jpg');
+    background-repeat: no-repeat, repeat; */
+    /* padding: 100px; */
+    
+    
+}
+
+.quienes h1,
+.quienes p{
+    width: 70%;
+    color: white;
+}
