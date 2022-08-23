@@ -1,8 +1,89 @@
+/* INCLUIR FUENTES */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat ExtraBold';
+    src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat ExtraLight';
+    src: url('../fonts/Montserrat-ExtraLight.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 *{
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat SemiBold';
 }
+
+@font-face {
+    font-family: 'Montserrat ExtraBold';
+    src: url('fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat SemiBold';
+}
+
+body {
+    background-color: #031d40;
+}
+
+.mantenimiento{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #031d40;
+
+}
+
+.content img{
+    display: block;
+    margin: 0px auto;
+    /* border: 1px solid yellow; */
+}
+
+.mantenimiento h3{
+    display: block;
+    text-align: center;
+    margin-top: 26px;
+    color: #ffcc00;
+    font-family: "Montserrat Light";
+    font-size: 24px;
+}
+
+
 
 /* ########### HEADER ########### */
 
